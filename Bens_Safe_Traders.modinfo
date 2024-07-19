@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a0b9a762-a1b6-4662-8071-a2d9cd023d09" version="1">
+  <Properties>
+    <Name>BRMV's Safe Traders</Name>
+    <Description>Traders can't be pilaged.</Description>
+    <Created>1598559883</Created>
+    <Teaser>Traders can't be pilaged.</Teaser>
+    <Authors>Ben</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <InGameActions>
+    <UpdateDatabase id="Safe_Traders">
+      <File>Safe_Traders.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Safe_Traders.sql</File>
+  </Files>
+</Mod>
